@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:omega_irc/omega_irc.dart';
 
 void main() {
   runApp(MyApp());
@@ -52,7 +51,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-  bool awesome = new Awesome().isAwesome;
 
   void _incrementCounter() {
     setState(() {
@@ -99,7 +97,6 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('Are you awesome? $awesome'),
             Text(
               'You have pushed the button this many times:',
             ),
